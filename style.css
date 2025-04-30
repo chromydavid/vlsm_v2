@@ -1,0 +1,169 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: rgb(50, 50, 50);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: auto;
+  height: auto;
+}
+
+head {
+  overflow: auto;
+  height: auto;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+button {
+  padding: 10px 20px;
+  background-color: #ff0400;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+button:hover {
+  background-color: #a00000;
+  border-radius: 50px;
+}
+button:active {
+  box-shadow:  3px 3px rgba(150, 150, 150, 0.5);
+}
+
+
+
+
+.container {
+  margin-top: 120px;
+  background: black;
+  padding: 30px;
+  border-radius: 50px;
+  box-shadow:  10px 7px rgba(150, 150, 150, 0.25); 
+  text-align: left;
+  width: 750px;
+}
+
+
+
+
+.header_text {
+  text-align: center;
+  line-height: 0px;
+  color: white;
+}
+.signature {
+  text-align: center;
+  line-height: 1px;
+  color: rgba(100, 100, 100, 1);
+}
+
+
+.IPv4_input_box_in_one_row{
+    display: flex;
+    gap: 5px;
+    width: 350px;
+    margin-top: 0px;
+  }
+.IPv4_input_box_in_one_row_top_text {
+    text-align: left;
+    color: white;
+    line-height: 5px;
+    margin-bottom: 5px;
+}
+.IPv4_input_box_in_one_row_top_text_2 {
+  text-align: left;
+  color: white;
+  line-height: 5px;
+  margin-bottom: 10px;
+}
+
+
+
+
+
+.input_total_number_of_lan_wan {
+  width: 150px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+
+
+
+#network_size_input_boxes_container {
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 20px; 
+}
+.input_network_size_row {
+  display: flex;
+  color: white;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 0px;
+}
+.input_network_size_box {
+  width: 50px;
+  height: 10px;
+}
+
+
+
+
+
+
+.input_login_box{
+  width: 150px;
+  margin-top: 1px;
+  margin-bottom: 5px;
+}
+
+
+
+
+
+
+
+.table_box_text {
+  color: white;
+  border: 1px solid white;
+  padding: 15px;
+  text-align: center;
+}
+
+.vlsm_table {
+  border-collapse: collapse;
+}
+
+
+
+
+.error_text {
+  color: red;
+  font-size: 25px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>VLSM Calculator by Chromy David</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+
+<body>
+  <script src="script.js"></script>
+
+  <div class="container">  
+    <h1 class="header_text">VLSM Calculator</h1>
+    <h6 class="signature">by Chromý David</h6>
+
+    <form id="vlsm_calculator">
+
+      <p class="IPv4_input_box_in_one_row_top_text">IPv4 : </p> 
+        <div class="IPv4_input_box_in_one_row">
+          <input type="number" id="ipv41" placeholder="192" value="192">
+          <input type="number" id="ipv42" placeholder="168" value="168">
+          <input type="number" id="ipv43" placeholder="10" value="10">
+          <input type="number" id="ipv44" placeholder="0" value="0">
+        </div>
+        <br>
+        <br>
+        
+
+      <p class="IPv4_input_box_in_one_row_top_text">Celkový počet sítí (Lan + Wan):</p>
+        <input class="input_total_number_of_lan_wan" type="number" id="number_of_networks" placeholder="Počet sítí" required />
+        <br>
+        <button type="button" onclick="generate_network_size_input_boxes()">Pokračovat</button>
+        <div id="network_size_input_boxes_container">
+        </div>
+        <br>
+        <br>
+
+      <p class="IPv4_input_box_in_one_row_top_text_2">Přihlásit pro použití:</p>
+        <input class ="input_login_box" type="text" id="username" placeholder="Jméno"/>
+        <br>
+        <input class ="input_login_box" type="password" id="password" placeholder="Heslo"/>
+        <br>
+        <button type="button" onclick="check_for_calculate_vlsm_table()">Calculate</button>
+        <div id="vlsm_table_container">
+        </div>
+        <div id="invalid_name_or_username"></div>
+
+    </form>
+
+  </div>
+
+  
+</body>
+</html>
